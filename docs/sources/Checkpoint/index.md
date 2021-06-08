@@ -11,13 +11,13 @@
 
 | sourcetype     | notes                                                                                                   |
 |----------------|---------------------------------------------------------------------------------------------------------|
-| cp_log         | None                                                                                                    |
+| cp_log:syslog         | None                                                                                                    |
 
 ### Sourcetype and Index Configuration
 
 | key            | sourcetype     | index          | notes          |
 |----------------|----------------|----------------|----------------|
-| checkpoint_splunk         | cp_log         | netops         | none           |
+| checkpoint_splunk         | cp_log:syslog         | netops         | none           |
 
 ### Source and Index Configuration
 
